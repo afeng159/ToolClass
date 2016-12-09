@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source  = { :git => "https://github.com/afeng159/ToolClass.git", :tag => "1.0.0" }
+  s.source  = { :git => "https://github.com/afeng159/ToolClass.git", :tag => "2.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes/**/*"
+   s.source_files  = "ToolProject/Class/**/*"
 
 
-   s.public_header_files = "Classes/ToolClass.h"
+   s.public_header_files = "ToolProject/Class/ToolClass.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
